@@ -1,0 +1,48 @@
+.left {
+  display: inline-block;
+  border: 2px solid red;
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  cursor: pointer;
+  width: 12%;
+}
+.mid {
+  display: block;
+  border: 2px solid blue;
+  width: 40%;
+  margin: 20px auto;
+}
+.right {
+  display: inline-block;
+  border: 2px solid green;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+}
+
+.navbar,
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.navbar li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  color: grey;
+  text-decoration: underline;
+}
+
+.btn {
+  margin: 12px;
+  padding: 4px 14px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 16px;
+}
